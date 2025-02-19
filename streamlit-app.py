@@ -24,14 +24,15 @@ prompt_template = PromptTemplate(
 prompt = prompt_template.format(topic=topic)
 st.divider()
 # Use the prompt with Mistral AI
-if
-    chat_response = client.chat.complete(
-        model=model,
-        messages=[
-            {
-                "role": "user",
-                "content": prompt, 
-            },
-        ]
-    )
-    st.write(chat_response.choices[0].message.content)
+if topic:
+    prompt = prompt_template.format(topic=topic)
+
+    try:
+        response = client.chat(
+            model=model,
+            messages=[{"role": "user", "content": prompt}],
+        )
+        story = response.choices[0].message["content"]
+        st.write(story)
+    except Exception as e:
+        st.error(f"Error generating story: {e}")
