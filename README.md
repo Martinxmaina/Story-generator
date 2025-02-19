@@ -23,7 +23,9 @@ Once the application is running, you will see the following interface:
 
 ### Example
 - **Input**: "A brave knight"
-- **Output**: The application will generate a short story about a brave knight based on the provided topic.
+- **Output**: The application will generate a short story about a brave knight based on the provided topic 
+<img width="1272" alt="Screenshot 2025-02-19 at 15 44 34" src="https://github.com/user-attachments/assets/28f4598e-bea2-47e5-925a-9ec9b2999ab4" />
+
 
 ## Why Mistral AI?
 Mistral AI was chosen for this application due to its advanced natural language processing capabilities, which allow it to generate coherent and contextually relevant stories. Here are some reasons for its selection:
