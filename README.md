@@ -11,8 +11,8 @@ Before running the application, ensure you have the following installed:
 - Mistral AI library
 - Langchain library
 
-You can install the required libraries using pip:
-```
+You can install the required libraries using pip
+'''
 
 
 ## Usage
