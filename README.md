@@ -34,5 +34,9 @@ Mistral AI was chosen for this application due to its advanced natural language 
 2. **Flexibility**: The model can adapt to various topics and styles, allowing users to generate stories across different genres.
 3. **Ease of Integration**: Mistral AI can be easily integrated into Python applications, making it a suitable choice for this Streamlit app.
 
-## Conclusion
-The Story Generator application provides a simple and effective way to create stories using AI. By following the instructions above, users can easily run the app and explore the creative possibilities offered by Mistral AI.
+## 📦 Installation
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/your-username/story-generator.git
+cd story-generator
+pip install -r requirements.txt
