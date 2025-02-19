@@ -37,6 +37,6 @@ Mistral AI was chosen for this application due to its advanced natural language 
 ## 📦 Installation
 Clone the repository and install dependencies:
 ```bash
-git clone https://github.com/your-username/story-generator.git
+git clone https://github.com/martinxmaina/story-generator.git
 cd story-generator
 pip install -r requirements.txt
